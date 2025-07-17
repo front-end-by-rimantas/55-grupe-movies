@@ -5,8 +5,6 @@ export function tableMovies(data) {
     let nr = 1;
 
     for (const movie of data) {
-        console.log(movie);
-
         HTML += `
             <tr>
                 <th scope="row">${nr++}</th>
